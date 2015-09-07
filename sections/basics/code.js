@@ -32,7 +32,7 @@ app.controller('safeCtrl', ['$scope', function ($scope) {
 
     $scope.rowCollection = [];
 
-    for (id; id < 5; id++) {
+    for (id; id < 10; id++) {
         $scope.rowCollection.push(generateRandomItem(id));
     }
 
